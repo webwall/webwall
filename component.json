@@ -1,0 +1,9 @@
+{
+  "name": "Webwall",
+  "version": "0.0.1",
+  "main": ["./js/app.js"],
+  "dependencies": {
+    "jquery": "1.8.*",
+    "backbone": "0.9.*"
+  }
+}
