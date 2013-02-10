@@ -1,8 +1,7 @@
 <?php
 
 define('WEBWALL_WEBROOT', __DIR__);
-define('WEBWALL_CORE', WEBWALL_WEBROOT . DIRECTORY_SEPARATOR . 'core');
 
-// require WEBWALL_CORE . DIRECTORY_SEPARATOR . 'bootstrap.php';
+define('WEBWALL_ROOT', realpath(WEBWALL_WEBROOT . DIRECTORY_SEPARATOR . '..'));
 
-require __DIR__ . '/../src/bootstrap.php';
+require WEBWALL_ROOT . '/src/bootstrap.php';
